@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    position: relative;
+    top: -9px;
+    padding: 10px 0px 0px 150px;
+    background-color: white;
+    margin-bottom: 0px;
+    display:inline-flex;
+    color: darkgreen;
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+    
+}
+.nav ul,li,a {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: darkgrey;
+    border-color: dimgrey;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif
+}
+
+.back{
+    background-image: url(../mow.jpg);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    background-position: right;
+    background-size: 100% 100%;
+    position: static;
+    
+}
+
+  #textbox {
+    width: 200px;
+    height: 600px;
+    color: #FFF;
+    text-align: center;
+    background-color: #000;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: static;
+    margin-top: 0px;
+    background-color:rgba(6,100,0,.5); 
+}
+.btn_group a{
+    width: 179px;
+    height: 40px;
+    padding: 10px 10px;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    margin-left: 19px;
+    margin-right: 400px;
+    margin-top: 10px;
+}
